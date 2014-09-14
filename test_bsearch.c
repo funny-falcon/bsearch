@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <inttypes.h>
 #include <assert.h>
-#include <../include/bsearch.h>
+#include "bsearch.h"
 
 static int compare_intp(const void *a, const void *b)
 {
